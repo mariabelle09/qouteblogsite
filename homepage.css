@@ -1,0 +1,281 @@
+*
+/* Add responsive styles here */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    .form_style,
+    .btn {
+        width: 100%;
+    }
+}
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    .background-image{
+        
+    }
+    body{
+    }
+    .banner{
+    width: 100%;
+    height: 500vh;
+    }
+    .navbar{
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: pink;
+    height: 50px;
+    width: 1303px;
+    position: fixed;
+    }
+    h2{
+    margin-left: 4%;
+    font-size: 23px;
+    font-family: cursive;
+    text-transform: uppercase;
+    }
+    .navbar ul li{
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    margin: 0 10px;
+    position: relative;
+    }
+    .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+    }
+    .navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #0ca091;
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    transition: 0.5s;
+    }
+    .navbar ul li:hover::after{
+    width: 100%;
+    }
+    
+
+    .head1{
+        
+    }
+    button {
+        width: 150px;
+        height: 60px;
+        border: 3px solid purple;
+        border-radius: 45px;
+        transition: all 0.3s;
+        cursor: pointer;
+        background: white;
+        font-size: 1.2em;
+        font-weight: 550;
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      button:hover {
+        background: purple;
+        color: white;
+        font-size: 1.5em;
+      }
+
+      @keyframes slide{
+        0%{
+            transform: translateX(0);
+        }
+        25%{
+            transform: translateX(0);
+        }
+        30%{
+            transform: translateX(-100%);
+        }
+        50%{
+            transform: translateX(-100%);
+        }
+        55%{
+            transform: translateX(-200%);
+        }
+        75%{
+            transform: translateX(-200%);
+        }
+        80%{
+            transform: translateX(-300%);
+        }
+        100%{
+            transform: translateX(-300%);
+        }
+    }
+    /* Center website */
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 10px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    height: 150px;
+    background-color: white;
+    padding: 10px;
+    font-family: cursive;
+    border-radius: 5px;
+    box-shadow: 10px 25px 30px rgba(92, 92, 235, 0.918);
+  }
+  h4{
+    font-size: 18px; 
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 3px 16px;
+    margin: 1px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+    
+
+
+
+    
+    footer{
+        height: 220px;
+        transform: translate(-7%, 7%);
+        background-color: pink;
+        width: 1400px;
+        margin-top: -2%;
+    }
+    footer .footme{
+        padding: 5px;
+        margin-left: 55px;   
+    }
+    footer .footme{
+        padding: 20px;
+    
+    }
+    footer .footme h5{
+        font-family: Copperplate, Papyrus, fantasy;
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    footer .footme p{
+        text-align: center;
+        font-size: 13px;
+    
+    }
+    footer .footmi h3{
+        font-family: Copperplate, Papyrus, fantasy;
+        text-align: center;
+        font-size: 20px;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+    footer .number h2{
+        font-family: Copperplate, Papyrus, fantasy;
+        text-align: center;
+        font-size: 20px;
+        text-transform: none;
+    
+    }
+    footer .number h4{
+        text-align: center;
+        font-size: 13px;
+    }
+    footer .number h5{
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    
+    footer .footer-copyright .foot2{
+        text-align: center;
+        color: rgb(110, 56, 56);
+        margin: -12px;
+    
+    
+    
+    
+    
+    }
+    
+    
